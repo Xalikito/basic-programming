@@ -7,3 +7,10 @@ let อยากกลับบ้าน: boolean = true
 console.log(firstName)
 console.log(y)
 console.log(อยากกลับบ้าน)
+
+let a: number = 10
+let b: number = 20
+
+console.log(a === b)
+console.log(a > b)
+console.log(a <= b)

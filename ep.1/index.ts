@@ -1,7 +1,7 @@
 const firstName: string = 'อนุชิต'
-let y: Number = 10
+let y: number = 10
 y = 20
-let อยากกลับบ้าน: boolean = true
+let อยากกลับบ้าน: boolean = false
 
 
 console.log(firstName)

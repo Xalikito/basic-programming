@@ -1,4 +1,4 @@
-const firstName: string = 'อนุชิต'
+const firstName: string = 'anuchit'
 let y: number = 10
 y = 20
 let isWantToGoHome: boolean = true

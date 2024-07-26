@@ -59,7 +59,7 @@ function mt(gender: string, t: number ,w: number) {
 
 mt('boy', 160, 49)
 
-function dgw(age: number, monthMoney: number, depoist: number) {
+function digitalWallet(age: number, monthMoney: number, depoist: number) {
     if (age >= 16 && monthMoney < 70000 && depoist < 500000) {
         console.log("รับ 10000 บาท")
     } else {
@@ -67,4 +67,4 @@ function dgw(age: number, monthMoney: number, depoist: number) {
     }
 }
 
-dgw(19, 14000, 3300000)
+digitalWallet(19, 14000, 3300000)

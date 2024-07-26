@@ -59,8 +59,8 @@ function mt(gender: string, t: number ,w: number) {
 
 mt('boy', 160, 49)
 
-function dgw(age: number, mm: number, dpm: number) {
-    if (age >= 16 && mm < 70000 && dpm < 500000) {
+function dgw(age: number, monthMoney: number, depoist: number) {
+    if (age >= 16 && monthMoney < 70000 && depoist < 500000) {
         console.log("รับ 10000 บาท")
     } else {
         console.log("อด....")

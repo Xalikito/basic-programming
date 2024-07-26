@@ -37,3 +37,24 @@ function acc(m: string, z: string, f: string) {
 }
 
 acc('mix', 'eve', 'Pete')
+
+function atc(p: string, tname: string, a: string) {
+
+    if (!(p === 'mix' || tname === 'zane') && a === 'forth') {
+        console.log("พร้อมเรียน")
+    } else {
+        console.log("ยังไม่พร้อม")
+    }
+}
+
+atc('mix', 'zane', 'forth') // เครื่องหมาย ! เปลี่ยนจริงเป็นเท็จ เปลี่ยนเท็จเป็นจริง
+
+function mt(gender: string, t: number ,w: number) {
+    if (gender === 'boy' && t > 170 || (w > 50 && w <= 110)) {
+        console.log("จับใบดำใบแดง")
+    } else {
+        console.log("ไม่เข้าเกณฑ์")
+    }
+}
+
+mt('boy', 160, 49)

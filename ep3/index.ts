@@ -67,4 +67,4 @@ function dgw(age: number, mm: number, dpm: number) {
     }
 }
 
-dgw(19, 14000, 300000)
+dgw(19, 14000, 3300000)

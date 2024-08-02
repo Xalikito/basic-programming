@@ -105,4 +105,4 @@ function checkCharacter(p: string, t: string) {
     }
 }
 
-checkCharacter('อยากกลับบ้าน', 'กลับ')
+checkCharacter('อยากกลับบ้าน', 'น')

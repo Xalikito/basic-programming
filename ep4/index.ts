@@ -71,3 +71,38 @@ function nm(x: number) {
 }
 
 console.log(nm(1000))
+
+const str: string = "Anuchit"
+
+console.log(str.toLowerCase())
+
+function checkStringLength(m: string) {
+    const u = m.length
+    return u
+}
+
+console.log(checkStringLength('Anuchit'))
+
+function letGo(o: string, index: number) {
+    return o.charAt(index)
+}
+
+console.log(letGo('Anuchit', 1))
+
+const ld: string = 'อยากกลับบ้านแล้วค้าบบบบบบบบบบบ'
+
+console.log(ld.indexOf('ก')) // ดูตัวอักษรว่าอยู่เลขอะไร จะดูทีละตัวจากตัวแรกจึงไม่นับตัวหลัง
+
+const rd:string = 'ฉันรักเธอ'
+
+console.log(rd.includes('รัก')) // เอาไว้ตรวจสอบตัวอักษรหรือคำว่ามีในประโยคหรือไม่
+
+function checkCharacter(p: string, t: string) {
+    if (p.includes(t)) {
+        console.log(p.indexOf(t))
+    } else {
+        console.log('ไม่พบคำที่ค้นหา')
+    }
+}
+
+checkCharacter('อยากกลับบ้าน', 'กลับ')

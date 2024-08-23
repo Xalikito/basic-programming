@@ -55,3 +55,39 @@ do {
     console.log('ฉันอายุ ' + x + ' ปี')
     x++
 } while (x <= 19)
+    
+// array
+
+const cars: string[] = ['Toyota', 'Honda', 'Suzuki', 'Yamaha', 'Mazda', 'BYD']
+
+for (let i = 0; i < cars.length; i++) {
+    console.log(cars[i])
+}
+
+const cars1: string[] = ['Toyota', 'Honda', 'Suzuki', 'Yamaha', 'Mazda', 'BYD']
+
+for (let i = 0; i < cars1.length; i++) {
+   if (cars1[i] === 'Yamaha') {
+    console.log('รถซื้อแกง จะแรงได้ไง')
+   }
+}
+
+// console.log(cars1.includes('Toyota'))
+
+const friend: string[] = ['ศร', 'รุจ', 'ป้อง', 'เต้', 'ป้อม']
+
+for (let i = 0; i < friend.length; i++) {
+   if (friend[i] === 'ศร') {
+    console.log('ไปกินหมูกระทะกัน')
+   }
+}
+
+const num: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for (let i = 0; i < num.length; i++) {
+   if (num[i] === 3 || num[i] === 5 || num[i] === 7) {
+    num[i] = 0
+   }
+}
+
+console.log(num)

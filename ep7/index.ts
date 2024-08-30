@@ -76,3 +76,19 @@ console.log("เรียง ก - ฮ: ", friendsNameArray)
 friendsNameArray.reverse()
 
 console.log("เรียง ฮ - ก: ", friendsNameArray)
+
+const me = {
+   firstName: 'Sompong',
+   lastName: 'Sawangja',
+   age: 19,
+   birthday: 21/11/2548,
+   telephone: 191
+}
+
+// ประวัติส่วนตัว
+
+// ชื่อ: Anuchit
+// นามสกุล: Saengkrajang
+// อายุ: 19
+//เกิดวันที่: 23/12/2548
+// เบอร์โทร: 191

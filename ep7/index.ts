@@ -51,3 +51,28 @@ console.log("เอาตัวหน้าออก: ", animalsArray)
 animalsArray.unshift('หมาป่า') // ใส่ตัวหน้า
 
 console.log("ใส่ตัวหน้า: ", animalsArray)
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"]
+
+fruits.sort() // เรียง A - Z
+
+console.log("เรียง A-Z: ", fruits)
+
+fruits.reverse() // เรียง Z - A
+
+console.log("เรียง Z-A: ", fruits)
+
+const fruitsSlice = fruits.slice(0, 2)
+
+console.log("ตัด: ", fruitsSlice)
+
+const friendsName: string = "สร, รุจ, ป้อง, คิว"
+const friendsNameArray: string[] = friendsName.split(',')
+
+friendsNameArray.sort()
+
+console.log("เรียง ก - ฮ: ", friendsNameArray)
+
+friendsNameArray.reverse()
+
+console.log("เรียง ฮ - ก: ", friendsNameArray)

@@ -1,9 +1,9 @@
-"article_id"; "9558390"
-    "title"; "สิงห์ปาร์ค เชียงราย ตั้งครัวกลางช่วยอุทกภัยใหญ่ ช่วยประชาชนและสนับสนุนการทำงานกู้ภัย"
-    "link"; "https://www.sanook.com/news/9558390/"
+"article_id"; "344143"
+    "title"; "น้ำท่วมเชียงราย หลายพื้นที่ยังหนัก ดินสไลด์ทับบ้าน เด็กตาย 1 คน"
+    "link"; "https://www.thaipbs.or.th/news/content/344143"
     "keywords"; [
     "น้ำท่วม"
     ]
     "creative"; [
-    "https://www.sanook.com/news/"
+    "https://www.thaipbs.or.th/news"
     ]

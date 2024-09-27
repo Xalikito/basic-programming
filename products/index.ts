@@ -10014,13 +10014,30 @@ const products = {
         return this.data.filter(function(element, indnex) {
             return element.availability === 'Y'
         }).map(function(element, index) {
-            return [{
+            return ({
                 product_name: element.product_name,
                 sku: element.sku,
                 salePrice: Number(element.price) - element.discount
-            }]
+            })
         })
-    }
+    },
+    salePriceWhileLoop: function() {
+        const availableProducts = []
+        let i = 0
+        while (i < this.data.length) {
+            if (this.data[i].availability === 'Y') {
+                availableProducts.push(this.data[i])
+            }
+            i++
+        }
+        return availableProducts.map(function(element, index) {
+            return ({
+                product_name: element.product_name,
+                sku: element.sku,
+                salePrice: Number(element.price) - element.discount
+            })
+        })
+    },
 }
 
 console.log(products.availability())
